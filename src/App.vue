@@ -3,6 +3,7 @@ import { onMounted } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import { useAnimalStore } from './stores/animal.js'
+import Button from "primevue/button"
 
 const store = useAnimalStore()
 
@@ -22,6 +23,7 @@ onMounted(async () => {
     >
 
     </v-data-table>
+    <Button>Verify</Button>
   </main>
 </template>
 
