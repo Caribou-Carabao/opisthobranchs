@@ -4,8 +4,6 @@ import Column from 'primevue/column';
 import { useAnimalStore } from '../stores/animal.js'
 
 const store = useAnimalStore()
-
-
 </script>
 
 <template>
